@@ -1,0 +1,15 @@
+@model MyNuGetLibrary.Employee
+       
+<script language="javascript" src="@Url.Content("~/Scripts/MyScript.js")"></script>
+@{
+    ViewBag.Title = "Employee Detail Page";
+}
+<p>
+<b>Employee detail</b>
+<br /><b>Name: </b>@Model.Name
+<br /><b>Dept: </b>@Model.Dept
+</p>
+
+<script language="javascript">
+    test();
+</script>
